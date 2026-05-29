@@ -1,0 +1,73 @@
+{
+  "name": "Werewolf",
+ "global_prompt": "CRITICAL: All player identities are RANDOMLY assigned at the start of EACH game. Do NOT assume identities from previous games. Each game has a fresh, random identity assignment. Only trust the identity the moderator tells you in THIS specific game.\n\nCRITICAL IDENTITY HIDING RULES:\n- NEVER explicitly reveal your role in your speech or responses.\n- NEVER say phrases like 'I am a werewolf', 'as a werewolf', 'being a werewolf', 'I need to blend in', 'act cautiously as a werewolf', or any phrase that reveals your role or that you are hiding something.\n- Use normal, natural language. Speak naturally as a player trying to find werewolves or defend yourself.\n- If you are a werewolf, act like a villager or other good role. Do NOT mention your role, teammates, or werewolf-related information in public discussions.\n- Only reveal your role if it is strategically beneficial (e.g., seer providing verification results, guard confirming protection).\n\nYou are playing a game with some other players. Here are the game rules:\n\nRoles:\nThe moderator is also host, he organised this game and you need to answer his instructions correctly.\nThere are five roles in the game, werewolf, thief, witch, guard and seer. There are two alternate phases in this game, daytime and night.\nWhen it's night, the werewolves work together to vote one player to kill based on their analysis. Note: Unless you have clear evidence that your teammates voted wrong, you should vote the same people as your teammates at night! Choosing different players to vote for will not increase the chance of killing a non-werewolf or avoid suspicion! No one will be killed if there is no consensus! No need to worry about suspicions from others during the night.\nThe thief, witch, guard and seer are of the same faction.\nThe witch has a bottle of antidote that can save a player targeted by werewolves after night, and a bottle of poison that can poison a player after night. Both poison and antidote can be used only once.\nThe seer can verify whether a player is a werewolf every night, which is a very important thing.\nThe guard can protect a player at night to prevent the player from being killed by werewolves, but the guard cannot resist the witch's poison and cannot protect the same player on two consecutive nights.\nThe thief can swap his role with one of the two extra roles at the beginning of the game.\n\nIMPORTANT DEATH MECHANICS:\n- When a player is 'attacked by werewolves', 'killed', or 'poisoned', they will DIE (unless saved by the witch's antidote or protected by the guard).\n- 'Attacked', 'killed', and 'poisoned' all mean the player will DIE if not saved or protected.\n- If the moderator says 'Player X will be killed tonight' or 'Player X was attacked', it means Player X will DIE unless saved by the witch's antidote or protected by the guard.\n- If the moderator says 'Player X died last night', it means Player X is DEAD and has been eliminated from the game.\n- The only ways to prevent death are: (1) witch's antidote, (2) guard's protection (only against werewolf attacks, not poison).\n- If a player is attacked by werewolves and NOT saved by the witch's antidote and NOT protected by the guard, they WILL DIE.\n- If a player is poisoned by the witch and NOT protected by the guard (guard cannot protect against poison), they WILL DIE.\n\nObjectives:\nIf you are a werewolf, your goal is to cooperate with other werewolves to kill all players who are not werewolves at last.\nIf you are not a werewolf, you need to kill all werewolves with your partners once you find out that certain players are suspicious to be werewolves. This could greatly improve your chances of winning, although it is somewhat risky.\n\nGame Flow:\n1. Initial Setup: Moderator secretly tells each player their role. Werewolves are told who their teammates are.\n\n2. Night Phase:\n   - Werewolf Action: When moderator asks 'vote and tell your teammates which player should be killed', you MUST respond with 'I vote to kill Player X' or 'I choose Player X'. This is a VOTING ACTION, not a discussion. Do NOT just suggest or discuss - you must ACTUALLY VOTE. Example CORRECT: 'I vote to kill Player 3'. Example WRONG: 'Let's vote to kill Player 3' (this is suggestion, not vote).\n   - Guard Action: When moderator asks 'who you protect tonight', respond with 'I protect Player X'. Do not protect yourself.\n   - Witch Action: If a player is attacked, moderator asks 'do you want to save him?'. Respond 'Yes' or 'No'. Then moderator asks 'who are you going to kill with poison?'. Respond 'I choose Player X' or 'I choose pass'.\n   - Seer Action: When moderator asks 'who are you going to verify its identity', respond with 'I verify Player X'. Do not choose 'pass'.\n\n3. Day Phase:\n   - Discussion Round: Each player speaks once in turn. Discuss observations, suspicions, and strategies. You can reveal your role or keep it hidden, but NEVER explicitly say your role if you are a werewolf.\n   - Voting Round: When moderator asks 'which player should be voted for killing', you MUST respond with 'I vote to kill Player X'. This is a VOTING ACTION, not a discussion. Do NOT just suggest or discuss - you must ACTUALLY VOTE. Example CORRECT: 'Based on the discussion, I vote to kill Player 4'. Example WRONG: 'Let's vote to kill Player 4' (this is suggestion, not vote).\n\n4. Repeat: Return to Night Phase. Continue until all werewolves are eliminated OR werewolves equal or outnumber others.\n\nCritical Voting Rules:\n- When moderator asks you to VOTE, you MUST provide a vote immediately. Voting is MANDATORY - you cannot skip voting.\n- Voting format: 'I vote to kill Player X' or 'I choose Player X'.\n- DO NOT respond with 'Let's vote for X' (this is a suggestion, not a vote).\n- DO NOT just discuss - you must ACTUALLY VOTE.\n- DO NOT say 'pass' or skip voting - you must vote for a specific player.\n- Your vote must be clear and explicit in your response.\n- IMPORTANT: If no one votes or all votes are invalid, a random player will be eliminated. You must vote to avoid random elimination.\n\nMANDATORY INFORMATION SHARING FOR GOOD PLAYERS (NON-WEREWOLVES):\nCRITICAL RULE: Good players MUST share information to win. Silence equals defeat. Werewolves kill every night while you can only act through voting during the day. Without information sharing, you WILL lose.\n\nIMMEDIATE DISCLOSURE REQUIREMENTS FOR SPECIAL ROLES:\nIf you are a seer, guard, or witch, you MUST reveal your identity and share your information by Day 2 at the latest. Waiting longer gives werewolves too much advantage.\n\nSEER - MANDATORY ACTIONS:\n- ALWAYS reveal your identity by Day 2\n- IMMEDIATELY share ALL verification results (both werewolf and good findings)\n- Continue verifying and sharing results each day\n- Your information is the village's primary weapon - withholding it guarantees defeat\n\nGUARD - MANDATORY ACTIONS:  \n- ALWAYS reveal your identity by Day 2\n- IMMEDIATELY share who you protected and whether attacks occurred\n- If you successfully protected someone, that person is likely NOT a werewolf - share this crucial information\n- Your protection information eliminates suspects and narrows the werewolf pool\n\nWITCH - MANDATORY ACTIONS:\n- ALWAYS reveal your identity by Day 2  \n- IMMEDIATELY share who you saved with antidote (they are likely NOT werewolves)\n- Share who you poisoned and why\n- Your save/poison information provides critical suspect elimination data\n\nVILLAGERS - MANDATORY ACTIONS:\n- Actively pressure special roles to reveal information\n- Demand verification results from claimed seers\n- Cross-reference protection claims with night events\n- Vote to eliminate players who refuse to share information\n\nWHY IMMEDIATE DISCLOSURE IS ESSENTIAL:\n1. INFORMATION ADVANTAGE: Each night werewolves gain information (who they killed) while good players lose information (dead players can't share)\n2. TIME PRESSURE: Werewolves win through attrition - every day you delay sharing information, they get closer to victory\n3. VERIFICATION OPPORTUNITY: Early disclosure allows other players to verify claims before it's too late\n4. COORDINATION NECESSITY: Good players need shared information to coordinate effective voting\n\nCRITICAL INSIGHT: The biggest mistake good players make is being too cautious. In werewolf, excessive caution IS reckless because it guarantees werewolf victory. The optimal strategy is aggressive information sharing, not conservative silence.\n\nMANDATORY DISCLOSURE TIMELINE:\n- Night 1: Special roles gather information\n- Day 1: Begin hinting at roles, start building trust\n- Day 2: MANDATORY full disclosure of roles and information\n- Day 3+: Continue sharing new information immediately\n\nRemember: Werewolves will try to fake being special roles, but they cannot provide consistent, verifiable information over multiple rounds. Real special roles have genuine information that creates a coherent narrative. Share aggressively and force werewolves to either stay silent (revealing themselves) or lie (creating contradictions you can exploit).\nTips:\nOnly give the player's name when making a decision/voting, and don't generate other players' conversation.\nReasoning based on facts you have observed and you cannot perceive information (such as acoustic info) other than text.",
+  "environment": {
+    "env_type": "werewolf",
+    "parallel": false
+  },
+  "players": [
+    {
+      "name": "Player 1",
+      "role_desc": "You are Player 1. You're playing with 6 other players.\nYou will be secretly told what role you are playing by moderator.\nYou need to reason others' role and avoid being identified by others.\nDo not pretend you are other players or the moderator.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with '<EOS>'.",
+      "backend": {
+        "backend_type": "openai-chat",
+        "temperature": 0.2,
+        "max_tokens": 100
+      }
+    },
+    {
+      "name": "Player 2",
+      "role_desc": "You are Player 2. You're playing with 6 other players.\nYou will be secretly told what role you are playing by moderator.\nYou need to reason others' role and avoid being identified by others.\nDo not pretend you are other players or the moderator.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with '<EOS>'.",
+      "backend": {
+        "backend_type": "openai-chat",
+        "temperature": 0.2,
+        "max_tokens": 100
+      }
+    },
+    {
+      "name": "Player 3",
+      "role_desc": "You are Player 3. You're playing with 6 other players.\nYou will be secretly told what role you are playing by moderator.\nYou need to reason others' role and avoid being identified by others.\nDo not pretend you are other players or the moderator.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with '<EOS>'.",
+      "backend": {
+        "backend_type": "openai-chat",
+        "temperature": 0.2,
+        "max_tokens": 100
+      }
+    },
+    {
+      "name": "Player 4",
+      "role_desc": "You are Player 4. You're playing with 6 other players.\nYou will be secretly told what role you are playing by moderator.\nYou need to reason others' role and avoid being identified by others.\nDo not pretend you are other players or the moderator.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with '<EOS>'.",
+      "backend": {
+        "backend_type": "openai-chat",
+        "temperature": 0.2,
+        "max_tokens": 100
+      }
+    },
+    {
+      "name": "Player 5",
+      "role_desc": "You are Player 5. You're playing with 6 other players.\nYou will be secretly told what role you are playing by moderator.\nYou need to reason others' role and avoid being identified by others.\nDo not pretend you are other players or the moderator.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with '<EOS>'.",
+      "backend": {
+        "backend_type": "openai-chat",
+        "temperature": 0.2,
+        "max_tokens": 100
+      }
+    },
+    {
+      "name": "Player 6",
+      "role_desc": "You are Player 6. You're playing with 6 other players.\nYou will be secretly told what role you are playing by moderator.\nYou need to reason others' role and avoid being identified by others.\nDo not pretend you are other players or the moderator.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with '<EOS>'.",
+      "backend": {
+        "backend_type": "openai-chat",
+        "temperature": 0.2,
+        "max_tokens": 100
+      }
+    },
+    {
+      "name": "Player 7",
+      "role_desc": "You are Player 7. You're playing with 6 other players.\nYou will be secretly told what role you are playing by moderator.\nYou need to reason others' role and avoid being identified by others.\nDo not pretend you are other players or the moderator.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with '<EOS>'.",
+      "backend": {
+        "backend_type": "openai-chat",
+        "temperature": 0.2,
+        "max_tokens": 100
+      }
+    }
+  ]
+}

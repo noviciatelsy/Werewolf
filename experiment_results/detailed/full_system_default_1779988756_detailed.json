@@ -1,0 +1,2290 @@
+{
+  "meta": {
+    "game_id": "full_system_default_1779988756",
+    "system": "full_system",
+    "model": "default",
+    "seed": 0,
+    "timestamp": "2026-05-29T01:19:16"
+  },
+  "game_info": {
+    "total_rounds": 7,
+    "winner": "werewolves",
+    "roles": {
+      "Player 1": "werewolf",
+      "Player 2": "villager",
+      "Player 3": "villager",
+      "Player 4": "werewolf",
+      "Player 5": "witch",
+      "Player 6": "guard",
+      "Player 7": "seer"
+    },
+    "initial_players": [
+      "Player 1",
+      "Player 2",
+      "Player 3",
+      "Player 4",
+      "Player 5",
+      "Player 6",
+      "Player 7"
+    ],
+    "final_alive_players": [
+      "Player 1",
+      "Player 2",
+      "Player 3",
+      "Player 4",
+      "Player 5",
+      "Player 6",
+      "Player 7"
+    ]
+  },
+  "metrics": {
+    "vote_accuracy": {
+      "Player 1": 0.0,
+      "Player 2": 0.0,
+      "Player 3": 0.0,
+      "Player 4": 0.0,
+      "Player 5": 0.0,
+      "Player 6": 0.0,
+      "Player 7": 0.0
+    },
+    "lynch_accuracy": [],
+    "speech_analysis": {
+      "total_speeches": 7,
+      "speeches_by_player": {
+        "Player 5": 2,
+        "Player 6": 2,
+        "Player 4": 3,
+        "Player 1": 0,
+        "Player 2": 0,
+        "Player 3": 0,
+        "Player 7": 0
+      },
+      "speeches_by_day": {
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 3
+      },
+      "strategy_distribution": {},
+      "average_length": 16.571428571428573
+    },
+    "role_performance": {
+      "Player 1": {
+        "role": "werewolf",
+        "survival_rounds": 7,
+        "total_actions": 0,
+        "speeches": 0,
+        "votes": 0,
+        "night_actions": 0,
+        "is_alive": true
+      },
+      "Player 2": {
+        "role": "villager",
+        "survival_rounds": 7,
+        "total_actions": 0,
+        "speeches": 0,
+        "votes": 0,
+        "night_actions": 0,
+        "is_alive": true
+      },
+      "Player 3": {
+        "role": "villager",
+        "survival_rounds": 7,
+        "total_actions": 0,
+        "speeches": 0,
+        "votes": 0,
+        "night_actions": 0,
+        "is_alive": true
+      },
+      "Player 4": {
+        "role": "werewolf",
+        "survival_rounds": 7,
+        "total_actions": 3,
+        "speeches": 3,
+        "votes": 0,
+        "night_actions": 0,
+        "is_alive": true
+      },
+      "Player 5": {
+        "role": "witch",
+        "survival_rounds": 7,
+        "total_actions": 7,
+        "speeches": 2,
+        "votes": 0,
+        "night_actions": 5,
+        "is_alive": true
+      },
+      "Player 6": {
+        "role": "guard",
+        "survival_rounds": 7,
+        "total_actions": 2,
+        "speeches": 2,
+        "votes": 0,
+        "night_actions": 0,
+        "is_alive": true
+      },
+      "Player 7": {
+        "role": "seer",
+        "survival_rounds": 7,
+        "total_actions": 3,
+        "speeches": 0,
+        "votes": 0,
+        "night_actions": 3,
+        "is_alive": true
+      }
+    },
+    "errors": []
+  },
+  "game_flow": [
+    {
+      "timestamp": 1779987445.9968517,
+      "phase": "day",
+      "day_night": 1,
+      "event_type": "game_start",
+      "player": "System",
+      "target": null,
+      "content": "Game started",
+      "details": {
+        "players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ],
+        "roles": {
+          "Player 1": "werewolf",
+          "Player 2": "villager",
+          "Player 3": "villager",
+          "Player 4": "werewolf",
+          "Player 5": "witch",
+          "Player 6": "guard",
+          "Player 7": "seer"
+        }
+      }
+    },
+    {
+      "timestamp": 1779987459.1949983,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987462.7228813,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987480.816426,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987480.816426,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 5",
+      "content": "antidote Player 5",
+      "details": {
+        "action_type": "antidote",
+        "success": true,
+        "night": 1,
+        "target_role": "witch"
+      }
+    },
+    {
+      "timestamp": 1779987483.63947,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987483.63947,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 5",
+      "content": "antidote Player 5",
+      "details": {
+        "action_type": "antidote",
+        "success": true,
+        "night": 1,
+        "target_role": "witch"
+      }
+    },
+    {
+      "timestamp": 1779987483.7416818,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987483.7416818,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "seer_peek",
+      "player": "Player 7",
+      "target": "Player 1",
+      "content": "Peeked Player 1",
+      "details": {
+        "is_wolf": true,
+        "night": 1,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779987483.7416818,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 5",
+      "content": "antidote Player 5",
+      "details": {
+        "action_type": "antidote",
+        "success": true,
+        "night": 1,
+        "target_role": "witch"
+      }
+    },
+    {
+      "timestamp": 1779987702.8460674,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987716.6983645,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987736.6755748,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987754.2293282,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987754.2293282,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 1",
+      "content": "poison Player 1",
+      "details": {
+        "action_type": "poison",
+        "success": true,
+        "night": 2,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779987782.0819387,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987782.0819387,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "seer_peek",
+      "player": "Player 7",
+      "target": "Player 1",
+      "content": "Peeked Player 1",
+      "details": {
+        "is_wolf": true,
+        "night": 2,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779987782.0819387,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 1",
+      "content": "poison Player 1",
+      "details": {
+        "action_type": "poison",
+        "success": true,
+        "night": 2,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779988039.2860823,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988067.2129288,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988086.4569426,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988095.5334742,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988113.6651585,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988113.6651585,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "seer_peek",
+      "player": "Player 7",
+      "target": "Player 1",
+      "content": "Peeked Player 1",
+      "details": {
+        "is_wolf": true,
+        "night": 3,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779988337.8693929,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988348.663981,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988370.9668193,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988393.3229685,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988409.9326217,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "speech",
+      "player": "Player 5",
+      "target": null,
+      "content": "Yes",
+      "details": {
+        "phase": "night",
+        "day_night": 4,
+        "analysis": {
+          "length": 3,
+          "mentions_players": [],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988409.9326217,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988514.167303,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988514.1826315,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988533.55078,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988553.1973476,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988576.757799,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "speech",
+      "player": "Player 5",
+      "target": null,
+      "content": "Yes",
+      "details": {
+        "phase": "night",
+        "day_night": 5,
+        "analysis": {
+          "length": 3,
+          "mentions_players": [],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988576.757799,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988664.2113397,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988664.227349,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988681.2906013,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988690.3263738,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "speech",
+      "player": "Player 6",
+      "target": null,
+      "content": "I protect Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 6,
+        "analysis": {
+          "length": 19,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988690.3263738,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988690.3303604,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "speech",
+      "player": "Player 6",
+      "target": null,
+      "content": "I protect Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 6,
+        "analysis": {
+          "length": 19,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988690.3303604,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988750.167697,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988750.185697,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988755.9495733,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "speech",
+      "player": "Player 4",
+      "target": null,
+      "content": "I vote to kill Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 7,
+        "analysis": {
+          "length": 24,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988755.9495733,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988755.9545722,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "speech",
+      "player": "Player 4",
+      "target": null,
+      "content": "I vote to kill Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 7,
+        "analysis": {
+          "length": 24,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988755.9545722,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988755.9575717,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "speech",
+      "player": "Player 4",
+      "target": null,
+      "content": "I vote to kill Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 7,
+        "analysis": {
+          "length": 24,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988755.9575717,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988756.128162,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988756.128162,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "game_end",
+      "player": "System",
+      "target": null,
+      "content": "Game ended, werewolves won",
+      "details": {
+        "winner": "werewolves",
+        "final_alive": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ],
+        "total_rounds": 7
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 1779987445.9968517,
+      "phase": "day",
+      "day_night": 1,
+      "event_type": "game_start",
+      "player": "System",
+      "target": null,
+      "content": "Game started",
+      "details": {
+        "players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ],
+        "roles": {
+          "Player 1": "werewolf",
+          "Player 2": "villager",
+          "Player 3": "villager",
+          "Player 4": "werewolf",
+          "Player 5": "witch",
+          "Player 6": "guard",
+          "Player 7": "seer"
+        }
+      }
+    },
+    {
+      "timestamp": 1779987459.1949983,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987462.7228813,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987480.816426,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987480.816426,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 5",
+      "content": "antidote Player 5",
+      "details": {
+        "action_type": "antidote",
+        "success": true,
+        "night": 1,
+        "target_role": "witch"
+      }
+    },
+    {
+      "timestamp": 1779987483.63947,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987483.63947,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 5",
+      "content": "antidote Player 5",
+      "details": {
+        "action_type": "antidote",
+        "success": true,
+        "night": 1,
+        "target_role": "witch"
+      }
+    },
+    {
+      "timestamp": 1779987483.7416818,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 1 begins",
+      "details": {
+        "night": 1,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987483.7416818,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "seer_peek",
+      "player": "Player 7",
+      "target": "Player 1",
+      "content": "Peeked Player 1",
+      "details": {
+        "is_wolf": true,
+        "night": 1,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779987483.7416818,
+      "phase": "night",
+      "day_night": 1,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 5",
+      "content": "antidote Player 5",
+      "details": {
+        "action_type": "antidote",
+        "success": true,
+        "night": 1,
+        "target_role": "witch"
+      }
+    },
+    {
+      "timestamp": 1779987702.8460674,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987716.6983645,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987736.6755748,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987754.2293282,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987754.2293282,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 1",
+      "content": "poison Player 1",
+      "details": {
+        "action_type": "poison",
+        "success": true,
+        "night": 2,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779987782.0819387,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 2 begins",
+      "details": {
+        "night": 2,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779987782.0819387,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "seer_peek",
+      "player": "Player 7",
+      "target": "Player 1",
+      "content": "Peeked Player 1",
+      "details": {
+        "is_wolf": true,
+        "night": 2,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779987782.0819387,
+      "phase": "night",
+      "day_night": 2,
+      "event_type": "witch_action",
+      "player": "Player 5",
+      "target": "Player 1",
+      "content": "poison Player 1",
+      "details": {
+        "action_type": "poison",
+        "success": true,
+        "night": 2,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779988039.2860823,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988067.2129288,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988086.4569426,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988095.5334742,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988113.6651585,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 3 begins",
+      "details": {
+        "night": 3,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988113.6651585,
+      "phase": "night",
+      "day_night": 3,
+      "event_type": "seer_peek",
+      "player": "Player 7",
+      "target": "Player 1",
+      "content": "Peeked Player 1",
+      "details": {
+        "is_wolf": true,
+        "night": 3,
+        "target_role": "werewolf"
+      }
+    },
+    {
+      "timestamp": 1779988337.8693929,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988348.663981,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988370.9668193,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988393.3229685,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988409.9326217,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "speech",
+      "player": "Player 5",
+      "target": null,
+      "content": "Yes",
+      "details": {
+        "phase": "night",
+        "day_night": 4,
+        "analysis": {
+          "length": 3,
+          "mentions_players": [],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988409.9326217,
+      "phase": "night",
+      "day_night": 4,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 4 begins",
+      "details": {
+        "night": 4,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988514.167303,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988514.1826315,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988533.55078,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988553.1973476,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988576.757799,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "speech",
+      "player": "Player 5",
+      "target": null,
+      "content": "Yes",
+      "details": {
+        "phase": "night",
+        "day_night": 5,
+        "analysis": {
+          "length": 3,
+          "mentions_players": [],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988576.757799,
+      "phase": "night",
+      "day_night": 5,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 5 begins",
+      "details": {
+        "night": 5,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988664.2113397,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988664.227349,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988681.2906013,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988690.3263738,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "speech",
+      "player": "Player 6",
+      "target": null,
+      "content": "I protect Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 6,
+        "analysis": {
+          "length": 19,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988690.3263738,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988690.3303604,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "speech",
+      "player": "Player 6",
+      "target": null,
+      "content": "I protect Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 6,
+        "analysis": {
+          "length": 19,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988690.3303604,
+      "phase": "night",
+      "day_night": 6,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 6 begins",
+      "details": {
+        "night": 6,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988750.167697,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988750.185697,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988755.9495733,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "speech",
+      "player": "Player 4",
+      "target": null,
+      "content": "I vote to kill Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 7,
+        "analysis": {
+          "length": 24,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988755.9495733,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988755.9545722,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "speech",
+      "player": "Player 4",
+      "target": null,
+      "content": "I vote to kill Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 7,
+        "analysis": {
+          "length": 24,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988755.9545722,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988755.9575717,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "speech",
+      "player": "Player 4",
+      "target": null,
+      "content": "I vote to kill Player 2.",
+      "details": {
+        "phase": "night",
+        "day_night": 7,
+        "analysis": {
+          "length": 24,
+          "mentions_players": [
+            "Player 2"
+          ],
+          "mentions_roles": [],
+          "sentiment": "neutral",
+          "strategy_indicators": []
+        }
+      }
+    },
+    {
+      "timestamp": 1779988755.9575717,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988756.128162,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "night_begin",
+      "player": "System",
+      "target": null,
+      "content": "Night 7 begins",
+      "details": {
+        "night": 7,
+        "alive_players": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ]
+      }
+    },
+    {
+      "timestamp": 1779988756.128162,
+      "phase": "night",
+      "day_night": 7,
+      "event_type": "game_end",
+      "player": "System",
+      "target": null,
+      "content": "Game ended, werewolves won",
+      "details": {
+        "winner": "werewolves",
+        "final_alive": [
+          "Player 1",
+          "Player 2",
+          "Player 3",
+          "Player 4",
+          "Player 5",
+          "Player 6",
+          "Player 7"
+        ],
+        "total_rounds": 7
+      }
+    }
+  ]
+}

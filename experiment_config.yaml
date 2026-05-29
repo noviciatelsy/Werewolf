@@ -1,0 +1,160 @@
+experiment:
+  name: "empathy_mcts_ablation_study"
+  version: "1.0"
+  description: "基于情感感知的混合推理-仿真框架消融实验"
+  
+  # 实验参数
+  rounds_per_config: 50  # 每个配置的游戏场次
+  random_seed: 42
+  
+  # 系统配置
+  systems:
+    - name: "full_system"
+      description: "完整系统：历史信息收集 + 共情抽取 + MCTS决策 + 情感一致发言生成"
+      components: ["history", "empathy", "mcts", "speech"]
+      mcts_iter: 50
+      empathy_freq: "per_round"
+      
+    - name: "no_empathy"
+      description: "无共情抽取：移除共情抽取模块，使用随机心理状态"
+      components: ["history", "mcts", "speech"]
+      mcts_iter: 50
+      empathy_freq: "none"
+      
+    - name: "no_mcts"
+      description: "无MCTS优化：移除MCTS搜索，使用贪心策略"
+      components: ["history", "empathy", "speech"]
+      mcts_iter: 0
+      empathy_freq: "per_round"
+      
+    - name: "no_empathy_speech"
+      description: "无情感一致发言：移除情感一致发言生成，使用模板化发言"
+      components: ["history", "empathy", "mcts"]
+      mcts_iter: 50
+      empathy_freq: "per_round"
+      
+    - name: "baseline"
+      description: "基线系统：仅使用LLM端到端生成，无结构化决策框架"
+      components: ["llm_only"]
+      mcts_iter: 0
+      empathy_freq: "none"
+  
+  # 模型配置
+  models:
+    - name: "gpt-4"
+      provider: "openai"
+      temperature: 0.7
+      max_tokens: 1000
+      
+    - name: "gpt-3.5-turbo"
+      provider: "openai"
+      temperature: 0.7
+      max_tokens: 1000
+      
+    - name: "claude-3"
+      provider: "anthropic"
+      temperature: 0.7
+      max_tokens: 1000
+      
+    - name: "qwen-max"
+      provider: "qwen"
+      temperature: 0.7
+      max_tokens: 1000
+  
+  # 游戏配置
+  games:
+    - name: "standard_6p"
+      description: "标准6人游戏"
+      players: 6
+      wolves: 2
+      villagers: 4
+      special_roles: ["seer", "witch"]
+      max_rounds: 10
+      
+    - name: "complex_7p"
+      description: "复杂7人游戏"
+      players: 7
+      wolves: 2
+      villagers: 5
+      special_roles: ["seer", "witch", "guard"]
+      max_rounds: 12
+  
+  # 评估指标
+  metrics:
+    - "win_rate"
+    - "survival_rounds"
+    - "response_time"
+    - "llm_calls"
+    - "empathy_accuracy"
+    - "speech_consistency"
+    - "strategy_complexity"
+    - "social_intelligence"
+  
+  # 参数消融实验
+  ablation_studies:
+    mcts_iterations:
+      name: "MCTS迭代次数消融"
+      parameter: "mcts_iter"
+      values: [10, 20, 50, 100]
+      base_system: "full_system"
+      
+    empathy_frequency:
+      name: "共情抽取频率消融"
+      parameter: "empathy_freq"
+      values: ["per_round", "every_2_rounds", "every_3_rounds", "initial_only"]
+      base_system: "full_system"
+      
+    speech_styles:
+      name: "发言风格数量消融"
+      parameter: "speech_style_count"
+      values: [4, 6, 8, 8]  # 8表示全部8种风格
+      base_system: "full_system"
+  
+  # 对照实验
+  comparison_studies:
+    - name: "pure_llm_comparison"
+      description: "与纯LLM方法对比"
+      baseline: "baseline"
+      test_systems: ["full_system", "no_empathy", "no_mcts"]
+      
+    - name: "traditional_mcts_comparison"
+      description: "与传统MCTS方法对比"
+      baseline: "traditional_mcts"
+      test_systems: ["full_system", "no_empathy"]
+      
+    - name: "rule_based_comparison"
+      description: "与规则基础方法对比"
+      baseline: "rule_based"
+      test_systems: ["full_system", "baseline"]
+  
+  # 角色平衡实验
+  role_balance_studies:
+    - name: "wolf_performance"
+      description: "狼人角色表现分析"
+      focus_role: "werewolf"
+      metrics: ["deception_success", "alliance_building", "survival_rate"]
+      
+    - name: "villager_performance"
+      description: "村民角色表现分析"
+      focus_role: "villager"
+      metrics: ["reasoning_accuracy", "cooperation", "wolf_detection"]
+      
+    - name: "special_role_performance"
+      description: "特殊角色表现分析"
+      focus_roles: ["seer", "witch", "guard"]
+      metrics: ["ability_usage", "information_sharing", "strategic_value"]
+  
+  # 输出配置
+  output:
+    results_dir: "experiment_results"
+    save_raw_data: true
+    save_analysis: true
+    generate_plots: true
+    generate_report: true
+    
+  # 性能配置
+  performance:
+    max_concurrent_games: 4
+    timeout_per_game: 300  # 5分钟超时
+    memory_limit: "8GB"
+    gpu_enabled: false

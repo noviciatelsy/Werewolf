@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "game_id": "4f753a7a-7402-480e-96d9-4d1436d18f07",
+    "system": "full_system",
+    "model": "default",
+    "seed": 0
+  },
+  "roles": {
+    "Player 1": "werewolf",
+    "Player 2": "villager",
+    "Player 3": "villager",
+    "Player 4": "werewolf",
+    "Player 5": "witch",
+    "Player 6": "guard",
+    "Player 7": "seer"
+  },
+  "metrics": {
+    "winner": "werewolves",
+    "winner_is_wolves": 1,
+    "role_win": {
+      "werewolves": 1,
+      "villagers": 0
+    },
+    "lynch_correct": [],
+    "per_voter_hit_rate": {},
+    "survival_rounds_by_role": {
+      "werewolf": [
+        0,
+        0
+      ],
+      "villager": [
+        0,
+        0
+      ],
+      "seer": [
+        0
+      ],
+      "witch": [
+        0
+      ],
+      "guard": [
+        0
+      ]
+    },
+    "empathy_accuracy": {
+      "true_role_prob_mean": null,
+      "stance_alignment": null
+    },
+    "speech_consistency": {
+      "mean_match": null,
+      "details": []
+    },
+    "vote_swing": {
+      "success_rate": null,
+      "n": 0
+    },
+    "seer_utilization": {
+      "cases": 0,
+      "success_rate": null
+    }
+  },
+  "lynches": [],
+  "votes": [],
+  "speeches": [
+    {
+      "day": 1,
+      "speaker": "Player 5",
+      "target_player": "Unknown",
+      "speech_style": "ambiguous",
+      "planned_vote_target": null
+    },
+    {
+      "day": 1,
+      "speaker": "Player 5",
+      "target_player": "Unknown",
+      "speech_style": "ambiguous",
+      "planned_vote_target": null
+    },
+    {
+      "day": 1,
+      "speaker": "Player 6",
+      "target_player": "Unknown",
+      "speech_style": "ambiguous",
+      "planned_vote_target": null
+    },
+    {
+      "day": 1,
+      "speaker": "Player 6",
+      "target_player": "Unknown",
+      "speech_style": "ambiguous",
+      "planned_vote_target": null
+    },
+    {
+      "day": 1,
+      "speaker": "Player 4",
+      "target_player": "Unknown",
+      "speech_style": "ambiguous",
+      "planned_vote_target": null
+    },
+    {
+      "day": 1,
+      "speaker": "Player 4",
+      "target_player": "Unknown",
+      "speech_style": "ambiguous",
+      "planned_vote_target": null
+    },
+    {
+      "day": 1,
+      "speaker": "Player 4",
+      "target_player": "Unknown",
+      "speech_style": "ambiguous",
+      "planned_vote_target": null
+    }
+  ]
+}
